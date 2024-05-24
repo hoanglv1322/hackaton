@@ -32,4 +32,4 @@ data:
       - job_name: "backend-service"
         scrape_interval: 5s
         static_configs:
-          - targets: [otel-collector-service:8889]
+          - targets: [opentelemetry-collector:8888]
